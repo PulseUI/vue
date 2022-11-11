@@ -1,0 +1,32 @@
+{
+  "name": "pulseui",
+  "version": "0.0.0",
+  "description": "Pulse UI integration and components for Vue!",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PulseUI/vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PulseUI/vue/issues"
+  },
+  "homepage": "https://github.com/PulseUI/vue#readme",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "rollup": "^3.2.5",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
